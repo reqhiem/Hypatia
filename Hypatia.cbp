@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -33,10 +35,19 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="README.md" />
+		<Unit filename="include/ArticuloRevista.h" />
+		<Unit filename="include/Hypatia.h" />
+		<Unit filename="include/Imagen.h" />
+		<Unit filename="include/PaginaWeb.h" />
+		<Unit filename="include/Software.h" />
+		<Unit filename="include/VideoOnline.h" />
 		<Unit filename="main.cpp" />
-		<Extensions>
-			<code_completion />
-			<debugger />
-		</Extensions>
+		<Unit filename="src/ArticuloRevista.cpp" />
+		<Unit filename="src/Hypatia.cpp" />
+		<Unit filename="src/Imagen.cpp" />
+		<Unit filename="src/PaginaWeb.cpp" />
+		<Unit filename="src/Software.cpp" />
+		<Unit filename="src/VideoOnline.cpp" />
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
