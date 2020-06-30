@@ -1,5 +1,5 @@
 # Specify filepatterns you want git to ignore.
 *.cbp
 *.layout
-bin/
-obj/
+bin/Debug
+obj/Debug
