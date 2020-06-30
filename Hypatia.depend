@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1593400964 source:/home/maryori/Escritorio/Hypatia/Hypatia/main.cpp
+	<iostream>
+	"Informe.h"
+
+1593381599 /home/maryori/Escritorio/Hypatia/Hypatia/include/Revista_cientifica.h
+	<iostream>
+
+1593214733 source:/home/maryori/Escritorio/Hypatia/Hypatia/src/Hypatia.cpp
+	"Hypatia.h"
+
+1593214733 /home/maryori/Escritorio/Hypatia/Hypatia/include/Hypatia.h
+
+1593388134 source:/home/maryori/Escritorio/Hypatia/Hypatia/src/Revista_cientifica.cpp
+	"Revista_cientifica.h"
+	<iostream>
+
+1593390063 /home/maryori/Escritorio/Hypatia/Hypatia/include/Wikipedia.h
+	<iostream>
+
+1593399994 source:/home/maryori/Escritorio/Hypatia/Hypatia/src/Wikipedia.cpp
+	"Wikipedia.h"
+
+1593394509 /home/maryori/Escritorio/Hypatia/Hypatia/include/Articulo_Periodistico.h
+	<iostream>
+
+1593400999 /home/maryori/Escritorio/Hypatia/Hypatia/include/Informe.h
+	<iostream>
+
+1593399994 source:/home/maryori/Escritorio/Hypatia/Hypatia/src/Articulo_Periodistico.cpp
+	"Articulo_Periodistico.h"
+
+1593401029 source:/home/maryori/Escritorio/Hypatia/Hypatia/src/Informe.cpp
+	"Informe.h"
+
