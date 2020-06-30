@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1593394757 source:/home/luissante/Escritorio/Hypatia/main.cpp
+	"Software.h"
+	"VideoOnline.h"
+	"PaginaWeb.h"
+	"Imagen.h"
+	"ArticuloRevista.h"
+
+1593369919 /home/luissante/Escritorio/Hypatia/include/Software.h
+	<string>
+
+1593210692 source:/home/luissante/Escritorio/Hypatia/src/Hypatia.cpp
+	"Hypatia.h"
+
+1593210707 /home/luissante/Escritorio/Hypatia/include/Hypatia.h
+
+1593370666 source:/home/luissante/Escritorio/Hypatia/src/Software.cpp
+	"Software.h"
+	<string>
+	<iostream>
+
+1593377509 /home/luissante/Escritorio/Hypatia/include/VideoOnline.h
+	<string>
+
+1593377650 source:/home/luissante/Escritorio/Hypatia/src/VideoOnline.cpp
+	"VideoOnline.h"
+	<iostream>
+	<string>
+
+1593381988 /home/luissante/Escritorio/Hypatia/include/PaginaWeb.h
+	<string>
+
+1593382171 source:/home/luissante/Escritorio/Hypatia/src/PaginaWeb.cpp
+	"PaginaWeb.h"
+	<iostream>
+	<string>
+
+1593392016 /home/luissante/Escritorio/Hypatia/include/Imagen.h
+	<string>
+
+1593392097 source:/home/luissante/Escritorio/Hypatia/src/Imagen.cpp
+	"Imagen.h"
+	<string>
+	<iostream>
+
+1593394778 /home/luissante/Escritorio/Hypatia/include/ArticuloRevista.h
+	<string>
+
