@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -33,10 +35,17 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="README.md" />
+		<Unit filename="include/Articulo_Periodistico.h" />
+		<Unit filename="include/Hypatia.h" />
+		<Unit filename="include/Informe.h" />
+		<Unit filename="include/Revista_cientifica.h" />
+		<Unit filename="include/Wikipedia.h" />
 		<Unit filename="main.cpp" />
-		<Extensions>
-			<code_completion />
-			<debugger />
-		</Extensions>
+		<Unit filename="src/Articulo_Periodistico.cpp" />
+		<Unit filename="src/Hypatia.cpp" />
+		<Unit filename="src/Informe.cpp" />
+		<Unit filename="src/Revista_cientifica.cpp" />
+		<Unit filename="src/Wikipedia.cpp" />
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
