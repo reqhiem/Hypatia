@@ -1,32 +1,43 @@
-#include "Software.h"
-#include "VideoOnline.h"
-#include "PaginaWeb.h"
-#include "Imagen.h"
-#include "ArticuloRevista.h"
-int main(){
-    Software s1;
-    s1.ingresarDatos();
-    s1.mostrarDatos();
-    s1.eliminarDatos();
+/*This is the main file of Hypatia project,
+*constains the main window
+*/
 
-    VideoOnline v1;
-    v1.IngresarDatos();
-    v1.MostrarDatos();
-    v1.EliminarDatos();
+#include <gtkmm.h>
+#include <iostream>
 
-    PaginaWeb p1;
-    p1.IngresarDatos();
-    p1.MostrarDatos();
-    p1.EliminarDatos();
+Gtk::Window* pDialog = nullptr;
 
-    Imagen i1;
-    i1.IngresarDatos();
-    i1.MostrarDatos();
-    i1.EliminarDatos();
+int main(int argc, char **argv){
 
-    ArticuloRevista r1;
-    r1.IngresarDatos();
-    r1.MostrarDatos();
-    r1.EliminarDatos();
+    auto app = Gtk::Application::create(argc, argv, "org.hypatia.com");
+
+    //Load the GtkBuilder file and instantiate its widgets:
+    auto refBuilder = Gtk::Builder::create();
+
+    try{
+        refBuilder->add_from_file("hypatia.glade");
+    }
+    catch(const Glib::FileError& ex){
+        std::cerr << "FileError: " << ex.what() << std::endl;
+        return 1;
+    }
+    catch(const Glib::MarkupError& ex){
+        std::cerr << "MarkupError: " << ex.what() << std::endl;
+        return 1;
+    }
+    catch(const Gtk::BuilderError& ex){
+        std::cerr << "BuilderError: " << ex.what() << std::endl;
+        return 1;
+    }
+
+    //Get the GtkBuilder-instantiated Dialog:
+    refBuilder->get_widget("mwindow", pDialog);
+    if(pDialog){
+
+        app->run(*pDialog);
+    }
+
+    delete pDialog;
+
     return 0;
 }
