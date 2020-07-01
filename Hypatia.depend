@@ -46,3 +46,48 @@
 1593394778 /home/luissante/Escritorio/Hypatia/include/ArticuloRevista.h
 	<string>
 
+1593483150 source:/home/joel/Documents/Programs/Projects/Hypatia/src/ArticuloRevista.cpp
+	"ArticuloRevista.h"
+	<string>
+	<iostream>
+
+1593483150 /home/joel/Documents/Programs/Projects/Hypatia/include/ArticuloRevista.h
+	<string>
+
+1593213403 source:/home/joel/Documents/Programs/Projects/Hypatia/src/Hypatia.cpp
+	"Hypatia.h"
+
+1593213403 /home/joel/Documents/Programs/Projects/Hypatia/include/Hypatia.h
+
+1593483150 source:/home/joel/Documents/Programs/Projects/Hypatia/src/Imagen.cpp
+	"Imagen.h"
+	<string>
+	<iostream>
+
+1593483150 /home/joel/Documents/Programs/Projects/Hypatia/include/Imagen.h
+	<string>
+
+1593483150 source:/home/joel/Documents/Programs/Projects/Hypatia/src/PaginaWeb.cpp
+	"PaginaWeb.h"
+	<iostream>
+	<string>
+
+1593483150 /home/joel/Documents/Programs/Projects/Hypatia/include/PaginaWeb.h
+	<string>
+
+1593483150 source:/home/joel/Documents/Programs/Projects/Hypatia/src/Software.cpp
+	"Software.h"
+	<string>
+	<iostream>
+
+1593483150 /home/joel/Documents/Programs/Projects/Hypatia/include/Software.h
+	<string>
+
+1593483150 source:/home/joel/Documents/Programs/Projects/Hypatia/src/VideoOnline.cpp
+	"VideoOnline.h"
+	<iostream>
+	<string>
+
+1593483150 /home/joel/Documents/Programs/Projects/Hypatia/include/VideoOnline.h
+	<string>
+
