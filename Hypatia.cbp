@@ -36,18 +36,33 @@
 		</Compiler>
 		<Unit filename="README.md" />
 		<Unit filename="include/ArticuloRevista.h" />
+		<Unit filename="include/Articulo_Periodistico.h" />
 		<Unit filename="include/Hypatia.h" />
 		<Unit filename="include/Imagen.h" />
+		<Unit filename="include/Informe.h" />
+		<Unit filename="include/Libro.h" />
 		<Unit filename="include/PaginaWeb.h" />
+		<Unit filename="include/Revista.h" />
+		<Unit filename="include/Revista_cientifica.h" />
 		<Unit filename="include/Software.h" />
 		<Unit filename="include/VideoOnline.h" />
+		<Unit filename="include/Wikipedia.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ArticuloRevista.cpp" />
+		<Unit filename="src/Articulo_Periodistico.cpp" />
 		<Unit filename="src/Hypatia.cpp" />
 		<Unit filename="src/Imagen.cpp" />
+		<Unit filename="src/Informe.cpp" />
+		<Unit filename="src/Libro.cpp" />
 		<Unit filename="src/PaginaWeb.cpp" />
+		<Unit filename="src/Revista.cpp" />
+		<Unit filename="src/Revista_cientifica.cpp" />
 		<Unit filename="src/Software.cpp" />
 		<Unit filename="src/VideoOnline.cpp" />
-		<Extensions />
+		<Unit filename="src/Wikipedia.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

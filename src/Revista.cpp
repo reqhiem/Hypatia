@@ -3,8 +3,6 @@
 Revista::Revista(){
 }
 
-Revista::Revista(){
-}
 
 Revista::~Revista(){
 }
