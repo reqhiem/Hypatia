@@ -4,7 +4,7 @@
 //Includes locales
 #include <list>
 #include <string>
-
+using namespace std;
 class Libro
 {
     public:

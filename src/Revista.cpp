@@ -1,10 +1,11 @@
 #include "Revista.h"
 
-Revista::Revista(){
-}
+#include <iostream>
+using namespace std;
 
 Revista::Revista(){
 }
+
 
 Revista::~Revista(){
 }

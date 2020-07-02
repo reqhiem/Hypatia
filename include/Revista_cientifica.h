@@ -1,6 +1,8 @@
 #ifndef REVISTA_CIENTIFICA_H
 #define REVISTA_CIENTIFICA_H
+#include <iostream>
 
+using namespace std;
 
 class Revista_cientifica
 {
