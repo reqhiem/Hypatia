@@ -1,6 +1,7 @@
 #ifndef REVISTA_H
 #define REVISTA_H
-
+#include <string.h>
+#include <iostream>
 using namespace std;
 
 class Revista

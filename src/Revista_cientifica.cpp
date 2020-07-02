@@ -9,17 +9,17 @@ Revista_cientifica::~Revista_cientifica()
 {
     //dtor
 }
-Revista_cientifica::EliminarDatos()
+void Revista_cientifica::EliminarDatos()
 {
 
 }
 
-Revista_cientifica::ImprimirDatos()
+void Revista_cientifica::ImprimirDatos()
 {
 
 }
 
-Revista_cientifica::IngresarDatos()
+void Revista_cientifica::IngresarDatos()
 {
 
 }
