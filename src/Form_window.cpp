@@ -90,18 +90,12 @@ void Form_window::on_button_save_clicked()
     std::string editorial = editorial_entry.get_text();
 
     /*Primero creo un Documento = new Tipo*/
-    if (tipo == "Libro"){
-       /*Opciones para Libro*/
-        Libro doc(titulo, fecha, autores, lugar_pub, editorial);
-        (*vdocs).push_back(doc);
-        std::cout << "Was created succesfully" << std::endl;
+   /*Opciones para Libro*/
+    Documento* doc = Documento::make_document(tipo,titulo,fecha, autores, lugar_pub, editorial);
+    (*vdocs).push_back(*doc);
+    std::cout << "Was created succesfully" << std::endl;
 
-        hide();
-
-    }
-    else{
-
-    }
+    hide();
     /*Luego creo un Bibliographi*/
 }
 

@@ -164,7 +164,7 @@ void MainWindow::on_action_file_new()
 
             std::ifstream archivo(filename);
             char linea[240];
-            long contador = 0L;
+            std::string content;
 
             if(archivo.fail())
                 std::cerr << "Error al abrir el archivp: " << std::endl;
@@ -172,8 +172,11 @@ void MainWindow::on_action_file_new()
                 while(!archivo.eof()){
                     archivo.getline(linea, sizeof(linea));
                     std::cout << linea << std::endl;
+                    content += linea;
+                    content += "\n";
                 }
             }
+            std::cout << content << std::endl;
 
             break;
         }
