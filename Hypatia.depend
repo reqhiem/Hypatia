@@ -7198,10 +7198,10 @@
 1593753166 d:\coding\dev\hypatia\include\informe.h
 	<iostream>
 
-1596555836 source:d:\coding\dev\hypatia\src\libro.cpp
+1596706549 source:d:\coding\dev\hypatia\src\libro.cpp
 	"Libro.h"
 
-1596555796 d:\coding\dev\hypatia\include\libro.h
+1596706564 d:\coding\dev\hypatia\include\libro.h
 	"Date.h"
 	"Documento.h"
 	<string>
@@ -14368,11 +14368,13 @@
 1596600706 d:\coding\dev\hypatia\include\bibliographic_source.h
 	"Documento.h"
 
-1596662799 d:\coding\dev\hypatia\include\documento.h
+1596707481 d:\coding\dev\hypatia\include\documento.h
 	"Date.h"
 
-1596400521 source:d:\coding\dev\hypatia\src\documento.cpp
+1596706864 source:d:\coding\dev\hypatia\src\documento.cpp
 	"Documento.h"
+	"Libro.h"
+	"Articulo.h"
 
 1596454657 source:d:\coding\dev\hypatia\src\libreria.cpp
 	"Libreria.h"
@@ -14381,8 +14383,9 @@
 	<vector>
 	"Bibliographic_source.h"
 
-1596663358 source:d:\coding\dev\hypatia\src\mainwindow.cpp
+1596702533 source:d:\coding\dev\hypatia\src\mainwindow.cpp
 	<iostream>
+	<fstream>
 	<gtkmm.h>
 	"MainWindow.h"
 	"Form_window.h"
@@ -14428,4 +14431,10 @@
 
 1596643147 source:d:\coding\dev\hypatia\src\bibliographicsource.cpp
 	"BibliographicSource.h"
+
+1596706054 source:d:\coding\dev\hypatia\src\articulo.cpp
+	"Articulo.h"
+
+1596706817 d:\coding\dev\hypatia\include\articulo.h
+	"Documento.h"
 

@@ -10,6 +10,14 @@ class Documento
         Documento (std::string _titulo, Date _fecha_pub, std::string _autores);
         virtual ~Documento();
 
+        /*Factory method*/
+        static Documento* make_document(std::string tipo,
+                                        std::string titulo,
+                                        Date fecha,
+                                        std::string autores,
+                                        std::string lugar_pub,
+                                        std::string editorial);
+
         /* Getters and setters*/
         std::string getTitulo() const;
         std::string getAutores() const;
