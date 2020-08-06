@@ -4,40 +4,28 @@
 
 #include <gtkmm.h>
 #include <iostream>
+#include <memory>
 
-Gtk::Window* pDialog = nullptr;
+#include "Libro.h"
+#include "MainWindow.h"
+#include "Form_window.h"
+
+//Gtk::Window* pDialog = nullptr;
 
 int main(int argc, char **argv){
 
+    Date date(2020,05,26);
+    std::unique_ptr<Documento> libro = std::make_unique<Libro>("La ciudad de los perros", date, "Vargas, M.", "Lima", "Casa Verde");
+
     auto app = Gtk::Application::create(argc, argv, "org.hypatia.com");
 
-    //Load the GtkBuilder file and instantiate its widgets:
-    auto refBuilder = Gtk::Builder::create();
+    auto window = std::make_unique<MainWindow>(app);
+    //auto window = std::make_unique<Form_window>();
+    app->run(*window);
 
-    try{
-        refBuilder->add_from_file("hypatia.glade");
-    }
-    catch(const Glib::FileError& ex){
-        std::cerr << "FileError: " << ex.what() << std::endl;
-        return 1;
-    }
-    catch(const Glib::MarkupError& ex){
-        std::cerr << "MarkupError: " << ex.what() << std::endl;
-        return 1;
-    }
-    catch(const Gtk::BuilderError& ex){
-        std::cerr << "BuilderError: " << ex.what() << std::endl;
-        return 1;
-    }
+    //auto application = MainApplication::create();
+    //const int status = application->run(argc, argv);
 
-    //Get the GtkBuilder-instantiated Dialog:
-    refBuilder->get_widget("mwindow", pDialog);
-    if(pDialog){
-
-        app->run(*pDialog);
-    }
-
-    delete pDialog;
-
+    //return status;
     return 0;
 }
