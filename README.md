@@ -11,9 +11,9 @@ El nombre del proyecto es Hypatia
 
 ## Contribuitors
 
-Joel Cristian Perca Quispe @github: https://github.com/reqhiem/
-Luis Felipe Sante Taipe @github: https://github.com/LuisSante/
-Maryori Lizeth Hilares Angelo @github: https://github.com/MaryoriHilares/
+-Joel Cristian Perca Quispe @github: https://github.com/reqhiem/
+-Luis Felipe Sante Taipe @github: https://github.com/LuisSante/
+-Maryori Lizeth Hilares Angelo @github: https://github.com/MaryoriHilares/
 
 ## Tecnologías
 
@@ -35,7 +35,12 @@ El sistema consta de clases tales como:
 ## Explicacion de uso
 
 El trabajo de usa para brindar ayuda al receptor y pueda obtener una referencia bibliográfica en el formato que desee. 
+
 •Tenemos la opción de agregar la cual nos brindara la opción de ingresar los datos de nuestro documento como titulo, fecha de publicación, autor o autores de dicho documento, lugar donde fue publicado y la editorial que emitió dicho documento
+
 •Los datos que se ingresen van a ingresar a un vector 
+
 •Tenemos la opción de borrar la cual nos va a permitir borrar las referencias hechas 
+
 •Tenemos la opción de editar la cual nos permitirá editar datos ya ingresados anteriormente y corregir con otro que deseamos
+
