@@ -12,7 +12,9 @@ El nombre del proyecto es Hypatia
 ## Contribuitors
 
 -Joel Cristian Perca Quispe @github: https://github.com/reqhiem/
+
 -Luis Felipe Sante Taipe @github: https://github.com/LuisSante/
+
 -Maryori Lizeth Hilares Angelo @github: https://github.com/MaryoriHilares/
 
 ## Tecnologías
@@ -25,11 +27,17 @@ Para el desarrollo del proyecto se hizo uso de:
 ## Clases
 
 El sistema consta de clases tales como:
+
 •Class libro
+
 •Class revista 
+
 •Class pagina web
+
 •Class articulo periodistico
+
 •Class imagen
+
 •Class ...
 
 ## Explicacion de uso
